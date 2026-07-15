@@ -1,0 +1,107 @@
+{
+  "https://publish.twitter.com/oembed?url=https://twitter.com/jack/status/20": {
+    "status": 200,
+    "body": "{\"html\": \"<blockquote class=\\\"twitter-tweet\\\"><p lang=\\\"en\\\" dir=\\\"ltr\\\">just setting up my twttr</p>&mdash; Jack (@jack) <a href=\\\"https://twitter.com/jack/status/20?ref_src=twsrc%5Etfw\\\">March 21, 2006</a></blockquote>\\n<script async src=\\\"https://platform.twitter.com/widgets.js\\\" charset=\\\"utf-8\\\"></script>\", \"author_name\": \"Jack\", \"author_url\": \"https://twitter.com/jack\", \"provider_name\": \"Twitter\", \"provider_url\": \"https://twitter.com/\", \"type\": \"rich\", \"version\": \"1.0\"}",
+    "headers": {"content-type": "application/json"}
+  },
+  "https://www.reddit.com/r/Python/hot.rss": {
+    "status": 200,
+    "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\"><channel><title>Python subreddit</title><link>https://www.reddit.com/r/Python/</link><description>Latest posts</description><item><title>Mock Reddit post 1</title><link>https://www.reddit.com/r/Python/comments/1</link></item><item><title>Mock Reddit post 2</title><link>https://www.reddit.com/r/Python/comments/2</link></item></channel></rss>",
+    "headers": {"content-type": "application/xml"}
+  },
+  "https://www.youtube.com/watch?v=dQw4w9WgXcQ": {
+    "exit_code": 0,
+    "body": "{\"title\": \"Rick Astley - Never Gonna Give You Up (Official Music Video)\", \"id\": \"dQw4w9WgXcQ\", \"extractor\": \"youtube\", \"description\": \"Mock YouTube description\"}",
+    "stderr": ""
+  },
+  "https://hn.algolia.com/api/v1/search?tags=front_page": {
+    "status": 200,
+    "body": "{\"hits\": [{\"title\": \"Mock Hacker News Story 1\", \"url\": \"https://example.com/hn1\"}, {\"title\": \"Mock Hacker News Story 2\", \"url\": \"https://example.com/hn2\"}]}",
+    "headers": {"content-type": "application/json"}
+  },
+  "http://export.arxiv.org/api/query?search_query=all:AI+agents&max_results=5": {
+    "status": 200,
+    "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><feed xmlns=\"http://www.w3.org/2005/Atom\"><title>arXiv query</title><entry><title>Mock AI Agents Paper 1</title><summary>Summary of paper 1</summary></entry></feed>",
+    "headers": {"content-type": "application/xml"}
+  },
+  "https://r.jina.ai/https://search.naver.com/search.naver?where=news&query=%ED%81%B4%EB%A1%9C%EB%93%9C%EC%BD%94%EB%93%9C": {
+    "status": 200,
+    "body": "<html><body><h1>Naver Search Results</h1><p>Mock Naver news content about Claude Code that has enough characters to be a valid document and passes the size thresholds.</p></body></html>",
+    "headers": {"content-type": "text/html"}
+  },
+  "https://r.jina.ai/https://search.naver.com/search.naver?where=blog&query=%ED%81%B4%EB%A1%9C%EB%93%9C%EC%BD%94%EB%93%9C": {
+    "status": 200,
+    "body": "<html><body><h1>Naver Blog Results</h1><p>Mock Naver blog content about Claude Code that has enough characters to be a valid document and passes the size thresholds.</p></body></html>",
+    "headers": {"content-type": "text/html"}
+  },
+  "https://r.jina.ai/https://finance.naver.com/item/sise.naver?code=005930": {
+    "status": 200,
+    "body": "<html><body><h1>Samsung Electronics Co., Ltd. Stock</h1><p>Current price: 80,000 KRW. Mock Naver Finance contents with 005930 information that passes all body size checks.</p></body></html>",
+    "headers": {"content-type": "text/html"}
+  },
+  "https://api.github.com/repos/fivetaku/insane-search": {
+    "status": 200,
+    "body": "{\"name\": \"insane-search\", \"full_name\": \"fivetaku/insane-search\", \"description\": \"Mock github description\"}",
+    "headers": {"content-type": "application/json"}
+  },
+  "https://api.stackexchange.com/2.3/search/advanced?order=desc&sort=votes&q=python+requests+403&site=stackoverflow": {
+    "status": 200,
+    "body": "{\"items\": [{\"title\": \"Mock StackOverflow title\", \"link\": \"https://stackoverflow.com/questions/1\"}]}",
+    "headers": {"content-type": "application/json"}
+  },
+  "https://public.api.bsky.app/xrpc/app.bsky.actor.getProfile?actor=bsky.app": {
+    "status": 200,
+    "body": "{\"did\": \"did:plc:mock\", \"handle\": \"bsky.app\", \"displayName\": \"Bluesky Mock\"}",
+    "headers": {"content-type": "application/json"}
+  },
+  "https://mastodon.social/api/v1/timelines/tag/AI?limit=10": {
+    "status": 200,
+    "body": "[{\"id\": \"1\", \"content\": \"Mock mastodon post content about #AI\"}]",
+    "headers": {"content-type": "application/json"}
+  },
+  "https://r.jina.ai/https://medium.com/@user/sample": {
+    "status": 200,
+    "body": "<html><body><h1>Medium Article</h1><p>Mock Medium content that is clean and has enough characters to be a valid document and passes the size thresholds.</p></body></html>",
+    "headers": {"content-type": "text/html"}
+  },
+  "https://r.jina.ai/https://pragmaticengineer.substack.com/p/sample": {
+    "status": 200,
+    "body": "<html><body><h1>Substack Article</h1><p>Mock Substack content that is clean and has enough characters to be a valid document and passes the size thresholds.</p></body></html>",
+    "headers": {"content-type": "text/html"}
+  },
+  "https://r.jina.ai/https://search.naver.com/search.naver?where=nexsearch&query=%EC%BF%A0%ED%8C%A1+M3+%EB%A7%A5%EB%B6%81%ED%94%84%EB%A1%9C": {
+    "status": 200,
+    "body": "<html><body><h1>Coupang Macbook Pro</h1><p>Mock Naver search proxy for Coupang containing product listings of MacBook Pro M3 that passes size thresholds.</p></body></html>",
+    "headers": {"content-type": "text/html"}
+  },
+  "https://r.jina.ai/https://www.linkedin.com/pulse/building-autonomous-ai-agents-with-llms": {
+    "status": 200,
+    "body": "<html><body><h1>LinkedIn Pulse</h1><p>Mock LinkedIn content about building autonomous AI agents with LLMs that has enough characters to be a valid document.</p></body></html>",
+    "headers": {"content-type": "text/html"}
+  },
+  "https://registry.npmjs.org/curl-cffi": {
+    "status": 200,
+    "body": "{\"name\": \"curl-cffi\", \"description\": \"Mock npm package description\"}",
+    "headers": {"content-type": "application/json"}
+  },
+  "https://pypi.org/pypi/torch/json": {
+    "status": 200,
+    "body": "{\"info\": {\"name\": \"torch\", \"summary\": \"Mock PyPI summary\"}}",
+    "headers": {"content-type": "application/json"}
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Artificial_intelligence": {
+    "status": 200,
+    "body": "{\"title\": \"Artificial intelligence\", \"extract\": \"Mock wikipedia summary of artificial intelligence.\"}",
+    "headers": {"content-type": "application/json"}
+  },
+  "http://web.archive.org/cdx/search/cdx?url=example.com&from=20200101&to=20201231&output=json": {
+    "status": 200,
+    "body": "[[\"urlkey\", \"timestamp\", \"original\", \"mimetype\", \"statuscode\", \"digest\", \"length\"], [\"com,example)/\", \"20200101120000\", \"http://example.com/\", \"text/html\", \"200\", \"ABC\", \"100\"]]",
+    "headers": {"content-type": "application/json"}
+  },
+  "https://example.com": {
+    "status": 200,
+    "body": "<html><body><h1>Example Domain</h1><p>This domain is for use in illustrative examples in documents. You may use this domain in literature without prior coordination or asking for permission.</p></body></html>",
+    "headers": {"content-type": "text/html"}
+  }
+}

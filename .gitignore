@@ -1,0 +1,29 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+
+# Claude Code
+.claude/
+
+# Workspace artifacts
+evals/
+
+# Workspace artifacts
+*-workspace/
+
+# Environment
+.env
+.env.local
+.omc/
+.agents/
+
+# Logs
+*.log
