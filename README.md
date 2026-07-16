@@ -74,6 +74,7 @@ PYTHONPATH=skills/insane-search python3 -m engine "<URL>"
 | **Skill Location** | Claude Plugin Registry (`claude plugin add`) | `~/.gemini/config/skills/` and `.agents/skills/` |
 | **Dependencies & Fallbacks** | Manual user pre-installation | **Cross-Platform Auto-Discovery & Rule R6**: Engine-level Node discovery (e.g. `/opt/homebrew/bin/node`) across macOS, Linux, and Windows plus Rule R6 exhaustive attempt enforcement, with Patchright auto-setup (`npx patchright install chrome`) |
 | **Safety Isolation** | Standard plain text return | **Rule R8 Enforced**: `[BEGIN UNTRUSTED WEB CONTENT]` boundary tags |
+| **Built-in Browser Bypass** | Relies on default browser automation | **Rule R10 & R11 Enforced**: Bypasses the default browser tool (`open_browser_url`) under Antigravity 2.0 across all OS platforms to prioritize custom WAF bypass, `patchright` (CDP leak protection), and TLS fingerprint mapping. Enforces constraint propagation to subagents (Rule R11). |
 
 ---
 

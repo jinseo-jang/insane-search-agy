@@ -74,6 +74,7 @@ PYTHONPATH=skills/insane-search python3 -m engine "<URL>"
 | **스킬 설치 경로** | Claude 전용 레지스트리 (`claude plugin add`) | `~/.gemini/config/skills/` 및 `.agents/skills/` |
 | **의존성 및 폴백 처리** | 사용자 사전 수동 설치 필요 | **크로스플랫폼 자가 감지 & Rule R6**: 엔진 내 macOS, Linux, Windows Node 감지 (예: `/opt/homebrew/bin/node`) 및 Rule R6 전수 시도 강제 규칙 적용, Patchright 자동 설치 (`npx patchright install chrome`) 지원 |
 | **보안 경계** | 일반 텍스트 반환 | **Rule R8 보안 격리**: `[BEGIN UNTRUSTED WEB CONTENT]` 태그 적용 |
+| **내장 브라우저 자동 우회** | 기본 브라우저 자동화에 의존 | **Rule R10 & R11 강제 적용**: Antigravity 2.0 환경의 모든 OS 플랫폼에서 내장 브라우저 기본 동작(`open_browser_url`)을 차단하고 스킬 규칙을 존중하여 자체 WAF 우회, `patchright` (CDP leak 차단), TLS 핑거프린트 매핑 최우선 기동. 서브에이전트 제약조건 전파 강제(Rule R11). |
 
 ---
 
