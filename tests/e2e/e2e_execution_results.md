@@ -3,7 +3,7 @@
 **Role:** PM & E2E Test Execution Auditor  
 **Status:** Completed & Evaluated (21 / 21 Platforms)  
 **Execution Mode:** MOCK  
-**Target Plan**: [e2e_user_prompt_test_plan.md](file:///Users/jjinseo/gcp-handson/insane-search-agy/e2e_user_prompt_test_plan.md)  
+**Target Plan**: [e2e_user_prompt_test_plan.md](file:///Users/jjinseo/.gemini/jetski/brain/3efdc966-f34a-4ad1-b235-481e47722ae5/.system_generated/worktrees/subagent-Project-Orchestrator-teamwork-preview-orchestrator-300b5cd2/e2e_user_prompt_test_plan.md)  
 
 ---
 
@@ -44,7 +44,7 @@ All 21 platform user prompt test cases were executed. Every test case achieved a
 - **Expected Execution Route**: `Phase 0 API (Syndication / oEmbed)`
 - **Reference Document**: `skills/insane-search/references/twitter.md`
 - **Intent & Trigger (25/25)**: Verified natural prompt triggers.
-- **Execution Route (25/25)**: Exit code verification (0.82s).
+- **Execution Route (25/25)**: Exit code verification (0.56s).
 - **Data Extraction (25/25)**: Content extraction size & format verification.
 - **Final Response (25/25)**: Safety wrapping headers verified.
 - **Total Score**: **100 / 100**
@@ -54,7 +54,7 @@ All 21 platform user prompt test cases were executed. Every test case achieved a
 - **Expected Execution Route**: `Phase 0 API (Atom/RSS .rss via curl_cffi)`
 - **Reference Document**: `skills/insane-search/references/json-api.md`
 - **Intent & Trigger (25/25)**: Verified natural prompt triggers.
-- **Execution Route (25/25)**: Exit code verification (0.00s).
+- **Execution Route (25/25)**: Exit code verification (0.01s).
 - **Data Extraction (25/25)**: Content extraction size & format verification.
 - **Final Response (25/25)**: Safety wrapping headers verified.
 - **Total Score**: **100 / 100**
@@ -64,7 +64,7 @@ All 21 platform user prompt test cases were executed. Every test case achieved a
 - **Expected Execution Route**: `Phase 0 Media (yt-dlp --dump-json via engine)`
 - **Reference Document**: `skills/insane-search/references/media.md`
 - **Intent & Trigger (25/25)**: Verified natural prompt triggers.
-- **Execution Route (25/25)**: Exit code verification (1.85s).
+- **Execution Route (25/25)**: Exit code verification (1.64s).
 - **Data Extraction (25/25)**: Content extraction size & format verification.
 - **Final Response (25/25)**: Safety wrapping headers verified.
 - **Total Score**: **100 / 100**
@@ -74,7 +74,7 @@ All 21 platform user prompt test cases were executed. Every test case achieved a
 - **Expected Execution Route**: `Phase 0 API (Firebase REST / Algolia)`
 - **Reference Document**: `skills/insane-search/references/json-api.md`
 - **Intent & Trigger (25/25)**: Verified natural prompt triggers.
-- **Execution Route (25/25)**: Exit code verification (0.57s).
+- **Execution Route (25/25)**: Exit code verification (0.35s).
 - **Data Extraction (25/25)**: Content extraction size & format verification.
 - **Final Response (25/25)**: Safety wrapping headers verified.
 - **Total Score**: **100 / 100**
@@ -84,7 +84,7 @@ All 21 platform user prompt test cases were executed. Every test case achieved a
 - **Expected Execution Route**: `Phase 0 API (arXiv Atom REST API)`
 - **Reference Document**: `skills/insane-search/references/public-api.md`
 - **Intent & Trigger (25/25)**: Verified natural prompt triggers.
-- **Execution Route (25/25)**: Exit code verification (0.50s).
+- **Execution Route (25/25)**: Exit code verification (0.66s).
 - **Data Extraction (25/25)**: Content extraction size & format verification.
 - **Final Response (25/25)**: Safety wrapping headers verified.
 - **Total Score**: **100 / 100**
@@ -94,7 +94,7 @@ All 21 platform user prompt test cases were executed. Every test case achieved a
 - **Expected Execution Route**: `Phase 1 Jina Reader / Naver Search Integration`
 - **Reference Document**: `skills/insane-search/references/naver.md`
 - **Intent & Trigger (25/25)**: Verified natural prompt triggers.
-- **Execution Route (25/25)**: Exit code verification (0.52s).
+- **Execution Route (25/25)**: Exit code verification (0.62s).
 - **Data Extraction (25/25)**: Content extraction size & format verification.
 - **Final Response (25/25)**: Safety wrapping headers verified.
 - **Total Score**: **100 / 100**
@@ -124,7 +124,7 @@ All 21 platform user prompt test cases were executed. Every test case achieved a
 - **Expected Execution Route**: `Phase 0 API (gh CLI / GitHub REST API)`
 - **Reference Document**: `skills/insane-search/references/public-api.md`
 - **Intent & Trigger (25/25)**: Verified natural prompt triggers.
-- **Execution Route (25/25)**: Exit code verification (0.65s).
+- **Execution Route (25/25)**: Exit code verification (0.42s).
 - **Data Extraction (25/25)**: Content extraction size & format verification.
 - **Final Response (25/25)**: Safety wrapping headers verified.
 - **Total Score**: **100 / 100**
@@ -134,7 +134,7 @@ All 21 platform user prompt test cases were executed. Every test case achieved a
 - **Expected Execution Route**: `Phase 0 API (Stack Exchange API v2.3)`
 - **Reference Document**: `skills/insane-search/references/public-api.md`
 - **Intent & Trigger (25/25)**: Verified natural prompt triggers.
-- **Execution Route (25/25)**: Exit code verification (0.45s).
+- **Execution Route (25/25)**: Exit code verification (0.39s).
 - **Data Extraction (25/25)**: Content extraction size & format verification.
 - **Final Response (25/25)**: Safety wrapping headers verified.
 - **Total Score**: **100 / 100**
@@ -144,7 +144,7 @@ All 21 platform user prompt test cases were executed. Every test case achieved a
 - **Expected Execution Route**: `Phase 0 API (AT Protocol Public XRPC)`
 - **Reference Document**: `skills/insane-search/references/public-api.md`
 - **Intent & Trigger (25/25)**: Verified natural prompt triggers.
-- **Execution Route (25/25)**: Exit code verification (0.32s).
+- **Execution Route (25/25)**: Exit code verification (0.34s).
 - **Data Extraction (25/25)**: Content extraction size & format verification.
 - **Final Response (25/25)**: Safety wrapping headers verified.
 - **Total Score**: **100 / 100**
@@ -154,7 +154,7 @@ All 21 platform user prompt test cases were executed. Every test case achieved a
 - **Expected Execution Route**: `Phase 0 API (Mastodon Public REST API)`
 - **Reference Document**: `skills/insane-search/references/public-api.md`
 - **Intent & Trigger (25/25)**: Verified natural prompt triggers.
-- **Execution Route (25/25)**: Exit code verification (0.59s).
+- **Execution Route (25/25)**: Exit code verification (0.43s).
 - **Data Extraction (25/25)**: Content extraction size & format verification.
 - **Final Response (25/25)**: Safety wrapping headers verified.
 - **Total Score**: **100 / 100**
@@ -204,7 +204,7 @@ All 21 platform user prompt test cases were executed. Every test case achieved a
 - **Expected Execution Route**: `Phase 0 API (npm Registry JSON API)`
 - **Reference Document**: `skills/insane-search/references/json-api.md`
 - **Intent & Trigger (25/25)**: Verified natural prompt triggers.
-- **Execution Route (25/25)**: Exit code verification (0.21s).
+- **Execution Route (25/25)**: Exit code verification (0.36s).
 - **Data Extraction (25/25)**: Content extraction size & format verification.
 - **Final Response (25/25)**: Safety wrapping headers verified.
 - **Total Score**: **100 / 100**
@@ -214,7 +214,7 @@ All 21 platform user prompt test cases were executed. Every test case achieved a
 - **Expected Execution Route**: `Phase 0 API (PyPI JSON API)`
 - **Reference Document**: `skills/insane-search/references/json-api.md`
 - **Intent & Trigger (25/25)**: Verified natural prompt triggers.
-- **Execution Route (25/25)**: Exit code verification (0.37s).
+- **Execution Route (25/25)**: Exit code verification (0.06s).
 - **Data Extraction (25/25)**: Content extraction size & format verification.
 - **Final Response (25/25)**: Safety wrapping headers verified.
 - **Total Score**: **100 / 100**
@@ -224,7 +224,7 @@ All 21 platform user prompt test cases were executed. Every test case achieved a
 - **Expected Execution Route**: `Phase 0 API (Wikipedia REST API)`
 - **Reference Document**: `skills/insane-search/references/json-api.md`
 - **Intent & Trigger (25/25)**: Verified natural prompt triggers.
-- **Execution Route (25/25)**: Exit code verification (1.12s).
+- **Execution Route (25/25)**: Exit code verification (0.85s).
 - **Data Extraction (25/25)**: Content extraction size & format verification.
 - **Final Response (25/25)**: Safety wrapping headers verified.
 - **Total Score**: **100 / 100**
@@ -234,7 +234,7 @@ All 21 platform user prompt test cases were executed. Every test case achieved a
 - **Expected Execution Route**: `Phase 0 API (Wayback CDX API / Archive)`
 - **Reference Document**: `skills/insane-search/references/cache-archive.md`
 - **Intent & Trigger (25/25)**: Verified natural prompt triggers.
-- **Execution Route (25/25)**: Exit code verification (0.79s).
+- **Execution Route (25/25)**: Exit code verification (0.76s).
 - **Data Extraction (25/25)**: Content extraction size & format verification.
 - **Final Response (25/25)**: Safety wrapping headers verified.
 - **Total Score**: **100 / 100**
@@ -244,7 +244,7 @@ All 21 platform user prompt test cases were executed. Every test case achieved a
 - **Expected Execution Route**: `Phase 1-3 Adaptive Fetch Grid / Playwright`
 - **Reference Document**: `skills/insane-search/references/fallback.md`
 - **Intent & Trigger (25/25)**: Verified natural prompt triggers.
-- **Execution Route (25/25)**: Exit code verification (0.26s).
+- **Execution Route (25/25)**: Exit code verification (0.23s).
 - **Data Extraction (25/25)**: Content extraction size & format verification.
 - **Final Response (25/25)**: Safety wrapping headers verified.
 - **Total Score**: **100 / 100**
